@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: hsl(217, 54%, 11%);
+}
+
+.page-content
+{
+    padding: 24px;
+}
+
+.card
+{
+    width: 327px;
+    height: 543px;
+    background: hsl(216, 50%, 16%);
+    padding: 24px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.card-img
+{
+    margin-bottom: 24px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 278px;
+}
+
+.card-img:hover
+{
+    cursor: pointer;
+}
+
+.card-img-top
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.card-img-overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    border-radius: 8px;
+}
+
+.card-img-overlay:hover
+{
+    opacity: 1;
+}
+
+.card-head
+{
+    margin-bottom: 12px;
+    color: hsl(0, 0%, 100%);
+    height: 28px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-detail
+{
+    height: 52px;
+    width: 100%;
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 25px;
+}
+
+.card-lower-content
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.left
+{
+    color: hsl(178, 100%, 50%);
+}
+.right
+{
+    color: hsl(215, 51%, 70%);
+}
+
+.card-lower-content .left, .card-lower-content .right
+{
+    height: 20px;
+    display: flex;
+}
+
+.card-lower-content span
+{
+    margin-right: 7.48px;
+}
+
+.card-lower-content p
+{
+    font-family: 'Outfit', sans-serif;
+}
+
+.line
+{
+    margin-bottom: 16px;
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.creator
+{
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.creator img
+{
+    width: 33px;
+    height: 33px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.first
+{
+    color: hsl(215, 51%, 70%);
+}
+
+.second
+{
+    color: hsl(0, 0%, 100%);;
+}
+
+.second:hover
+{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
